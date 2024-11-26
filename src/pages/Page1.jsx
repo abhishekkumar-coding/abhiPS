@@ -39,7 +39,7 @@ function Page1() {
   return (
     <div
       onMouseMove={(e) => mouseMoving(e)}
-      className="page1 mr-0 h-screen relative w-[100%]"
+      className="page1 mr-0 h-screen relative w-[100%] p-7"
     >
       <div
         id="page1-in"
