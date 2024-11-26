@@ -1,0 +1,27 @@
+.main {
+  background-color: black;
+}
+
+#page1-in {
+  background: linear-gradient(135deg, #d4f1f4, #a2d9ce, #f6d365, #fda085);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

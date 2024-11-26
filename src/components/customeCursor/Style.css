@@ -1,0 +1,50 @@
+/* CustomCursor.css */
+
+.custom-cursor {
+  position: absolute;
+  width: 20px; /* Size of the cursor */
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3498db; /* Cursor color */
+  pointer-events: none; /* Prevent cursor from interacting with elements */
+  transform: translate(-50%, -50%);
+  transition: transform 150ms ease-in-out;
+  z-index: 9999;
+  will-change: transform;
+}
+
+/* Cursor animation when hovering over a link or button */
+.custom-cursor.hovered {
+  width: 35px; /* Enlarge the cursor when hovering over clickable elements */
+  height: 35px;
+  background-color: #e74c3c; /* Change cursor color */
+}
+/* Add this to your global styles (like index.css) */
+a:hover,
+button:hover {
+  cursor: none; /* Hide the default cursor when hovering over links or buttons */
+}
+
+a,
+button {
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+/* Add a subtle pulse effect */
+.custom-cursor {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.6);
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.6);
+  }
+}
