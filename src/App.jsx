@@ -15,7 +15,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="w-[100%] border">
+    <div className="w-[100%]">
       <CustomCursor/>
       <SocialLinks/>
       <Header />
