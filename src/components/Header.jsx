@@ -9,9 +9,11 @@ function Header() {
   };
 
   return (
-    <div className="header fixed w-[90%] flex justify-between ml-30px items-center px-6 py-4 z-10 bg-transparent ">
+    <div
+      className="header fixed top-[30px] left-[40px] right-[40px] flex justify-between items-center px-4 py-4 z-10 bg-transparent"
+    >
       {/* Logo or Title */}
-      <h1 className="text-white font-bold text-2xl md:text-3xl">
+      <h1 className="text-white font-bold text-2xl md:text-[4vw]">
         AbhiPS
       </h1>
 

@@ -3,7 +3,7 @@
 }
 
 #page1-in {
-  background: linear-gradient(135deg, #d4f1f4, #a2d9ce, #f6d365, #fda085);
+  background: linear-gradient(135deg, #b3b3b3, #8b8b8b, #cdb5b5, #7d7d7d);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
 }
@@ -25,3 +25,4 @@
     background-position: 0% 50%;
   }
 }
+

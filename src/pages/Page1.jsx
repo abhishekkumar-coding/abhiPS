@@ -39,11 +39,11 @@ function Page1() {
   return (
     <div
       onMouseMove={(e) => mouseMoving(e)}
-      className="page1 mr-0 h-screen relative w-[100%] p-5"
+      className="page1 mr-0 h-screen relative w-[100%] p-4"
     >
       <div
         id="page1-in"
-        className="shadow-xl mb-60 p-20 border-gray-500 flex flex-col justify-center items-center relative shadow-gray-700 h-full w-full rounded-3xl img-container"
+        className="shadow-xl mb-60 px-[40px] border-gray-500 flex flex-col justify-center items-center relative shadow-gray-700 h-full w-full rounded-3xl img-container"
       >
         <TiltText tiltRef={tiltRef} />
         <Page1Bottom />
