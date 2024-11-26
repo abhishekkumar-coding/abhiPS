@@ -9,9 +9,9 @@ function Header() {
   };
 
   return (
-    <div className="header border fixed w-full flex justify-between items-center px-6 py-4 z-10 bg-transparent">
+    <div className="header fixed w-full flex justify-between items-center px-6 py-4 z-10 bg-transparent">
       {/* Logo or Title */}
-      <h1 className="text-white border font-bold text-2xl md:text-3xl">
+      <h1 className="text-white font-bold text-2xl md:text-3xl">
         AbhiPS
       </h1>
 
