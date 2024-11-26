@@ -74,6 +74,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  .custom-curso{
+    display : none;
+  }
   /* Header */
 
   body {
