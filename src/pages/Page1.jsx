@@ -43,7 +43,7 @@ function Page1() {
     >
       <div
         id="page1-in"
-        className="shadow-xl mb-60 border-gray-500 flex flex-col justify-center items-center p-20 relative shadow-gray-700 h-full w-full rounded-3xl img-container"
+        className="shadow-xl mb-60 border-gray-500 flex flex-col justify-center items-center relative shadow-gray-700 h-full w-full rounded-3xl img-container"
       >
         <TiltText tiltRef={tiltRef} />
         <Page1Bottom />
